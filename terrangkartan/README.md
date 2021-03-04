@@ -1,4 +1,4 @@
-﻿# QGIS Styles
+# QGIS Styles
 Stilfiler till QGIS.
 
 ## Filer till Lantmäteriets Terrängkartan, vektor.
@@ -9,4 +9,4 @@ Text-fonterna som bifogas shape-filerna bör installeras (GSDTxt.ttf ...) annars
 
 Symbol-fonterna behöver inte vara installerade (GSDTerrk.ttf och GSDsymbo.ttf). Symbolerna är inbäddade i stilfilerna som svg-symboler.
 
-Stilfilerna för terrängkartan är skapade med Lantmäteriets kartutskrift som förlaga.
+Stilfilerna för terrängkartan är skapade med Lantmäteriets kartutskrift som förlaga. (Filernas namn börjar med tk_k_).
