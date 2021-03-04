@@ -1,0 +1,6 @@
+<svg enable-background="new 0 0 10 10" width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+<path d="M 8.44,0 L 9.36,0.37 5.66,10 4.73,9.64 Z
+M 4.35,0 L 5.28,0.37 1.59,10 0.65,9.64 Z"
+fill="param(fill)" fill-opacity="param(fill-opacity)"
+stroke="param(outline)" stroke-opacity="param(outline-opacity)" stroke-width="param(outline-width)"/>
+</svg>

@@ -1,0 +1,405 @@
+﻿<!DOCTYPE html>
+<html lang="sv-SE">
+<head>
+<title>Kartsymboler</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+h1, h2, h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1em 0px 4px 16px;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14pt;
+  margin: 0px 0px 1em 16px;
+  width: 35em;
+}
+.vatten {
+  background-color: lightblue;
+  padding: 8px;
+  margin: 4px;
+  width: auto;
+}
+.land {
+  background-color: lightgreen;
+  padding: 8px;
+  margin: 4px;
+  width: auto;
+}
+figure {
+  font-family: "Lucida Console", "Courier New", monospace;
+  border: 1px solid black;
+  padding: 0px;
+  margin: 0px 0px 1em 1em;
+  width: 300px;
+}
+figcaption {
+  border-top: 1px solid;
+  padding: 5px;
+  margin: 0px;
+  width: auto;
+  height: auto;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  figure {
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+<h1>Kartsymboler</h1>
+
+<h2>Innehåll</h2>
+<p>Symboler anpassade till <a href="https://www.qgis.org/en/site/">QGIS</a>.
+Som förlaga har fonten GSDTerrk.ttf som levereras med
+<a href="https://www.lantmateriet.se/sv/Kartor-och-geografisk-information/geodataprodukter/produktlista/terrangkartan/">GSD-Terrängkartan, vektor</a> använts, även
+<a href="https://www.lantmateriet.se/sv/Kartor-och-geografisk-information/geodataprodukter/stodsidor/Kartsymboler/">symbolerna på
+Lantmäteriets hemsida</a> har varit förlaga.</p>
+
+<p>En del symboler innehåller en ”fast” färg (vit), därför visas symbolerna på en
+ljusblå eller ljusgrön bakgrund så att det blir tydligt. Den svarta färgen på
+symbolerna kan styras i QGIS till önskad färg.</p>
+
+<h2>Symboler</h2>
+<h3>Badplats</h3>
+<figure>
+  <img src="badplats.svg" class="vatten" width="100" height="100" alt=""/>
+  <figcaption>badplats.svg</figcaption>
+</figure>
+
+<h3>Bebyggelselämning</h3>
+<figure>
+  <img src="bebyggelselamning.svg" class="land" width="100" height="100" alt=""/>
+  <figcaption>bebyggelselamning.svg</figcaption>
+</figure>
+
+<h3>Begravningsplats</h3>
+<figure>
+  <img src="begravningsplats.svg" class="land" width="100" height="100" alt=""/>
+  <figcaption>begravningsplats.svg</figcaption>
+</figure>
+
+<h3>Blockig mark</h3>
+<figure>
+  <img src="blockig_mark.svg" class="land" width="100" height="97" alt=""/>
+  <figcaption>blockig_mark.svg</figcaption>
+</figure>
+
+<h3>Broöppning</h3>
+<figure>
+  <img src="brooppning.svg" class="vatten" width="100" height="83" alt="rörlig bro"/>
+  <figcaption>brooppning.svg</figcaption>
+</figure>
+
+<h3>Brygganordning</h3>
+<figure>
+  <img src="bryggangoring.svg" class="vatten" width="100" height="100" alt="angöringsbrygga"/>
+  <figcaption>bryggangoring.svg</figcaption>
+</figure>
+
+<h3>Brädgård</h3>
+<figure>
+  <img src="bradgard.svg" class="land" width="100" height="100" alt="virkesupplag"/>
+  <figcaption>bradgard.svg</figcaption>
+</figure>
+
+<h3>Bränning</h3>
+<figure>
+  <img src="branning.svg" class="vatten" width="100" height="100" alt="grund"/>
+  <figcaption>branning.svg</figcaption>
+</figure>
+
+<h3>Camping</h3>
+<figure>
+  <img src="camping.svg" class="land" width="100" height="100" alt="campingplats"/>
+  <figcaption>camping.svg</figcaption>
+</figure>
+
+<h3>Dammbyggnad</h3>
+<figure>
+  <img src="dammbyggnad.svg" class="vatten" width="100" height="38" alt=""/>
+  <figcaption>dammbyggnad.svg</figcaption>
+</figure>
+
+<h3>Dammbyggnad, liten</h3>
+<figure>
+  <img src="dammbyggnad_liten.svg" class="vatten" width="100" height="50" alt=""/>
+  <figcaption>dammbyggnad_liten.svg</figcaption>
+</figure>
+
+<h3>Fornlämning</h3>
+<figure>
+  <img src="fornlamning.svg" class="land" width="100" height="100" alt="märklig fast fornlämning"/>
+  <figcaption>fornlamning.svg</figcaption>
+</figure>
+
+<h3>Fyr</h3>
+<figure>
+  <img src="fyr.svg" class="vatten" width="100" height="105" alt=""/>
+  <figcaption>fyr.svg</figcaption>
+</figure>
+
+<h3>Gruvhål</h3>
+<figure>
+  <img src="gruvhal.svg" class="land" width="100" height="100" alt="gruvhål, litet"/>
+  <figcaption>gruvhal.svg</figcaption>
+</figure>
+
+<h3>Gästhamn</h3>
+<figure>
+  <img src="gasthamn.svg" class="vatten" width="100" height="100" alt=""/>
+  <figcaption>gasthamn.svg</figcaption>
+</figure>
+
+<h3>Hus, gård</h3>
+<figure>
+  <img src="hus_gard.svg" class="land" width="100" height="100" alt="gård"/>
+  <figcaption>hus_gard.svg</figcaption>
+</figure>
+
+<h3>Hus, herrgård</h3>
+<figure>
+  <img src="hus_herrgard.svg" class="land" width="100" height="100" alt="herrgård"/>
+  <figcaption>hus_herrgard.svg</figcaption>
+</figure>
+
+<h3>Hus, slott</h3>
+<figure>
+  <img src="hus_slott.svg" class="land" width="100" height="82" alt="slott"/>
+  <figcaption>hus_slott.svg</figcaption>
+</figure>
+
+<h3>Idrott, anläggning</h3>
+<figure>
+  <img src="idrott_anlaggning.svg" class="land" width="100" height="53" alt="idrottsanläggning"/>
+  <figcaption>idrott_anlaggning.svg</figcaption>
+</figure>
+
+<h3>Idrott, fotbollsplan</h3>
+<figure>
+  <img src="idrott_fotbollsplan.svg" class="land" width="100" height="68" alt="fotbollsplan"/>
+  <figcaption>idrott_fotbollsplan.svg</figcaption>
+</figure>
+
+<h3>Idrott, skjutbana</h3>
+<figure>
+  <img src="idrott_skjutbana.svg" class="land" width="195" height="21" alt="skjutbana, stor"/>
+  <figcaption>idrott_skjutbana.svg</figcaption>
+</figure>
+
+<h3>Idrott, skjutbana liten</h3>
+<figure>
+  <img src="idrott_skjutbana_liten.svg" class="land" width="192" height="45" alt="skjutbana, liten"/>
+  <figcaption>idrott_skjutbana_liten.svg</figcaption>
+</figure>
+
+<h3>Idrott, travbana</h3>
+<figure>
+  <img src="idrott_travbana1.svg" class="land" width="100" height="47" alt="travbana"/>
+  <figcaption>idrott_travbana1.svg</figcaption>
+</figure>
+
+<h3>Järnvägsstation1</h3>
+<figure>
+  <img src="jvg_station1.svg" class="land" width="100" height="100" alt="station"/>
+  <figcaption>jvg_station1.svg</figcaption>
+</figure>
+
+<h3>Järnvägsstation2</h3>
+<figure>
+  <img src="jvg_station2.svg" class="land" width="100" height="100" alt="järnvägsstation"/>
+  <figcaption>jvg_station2.svg</figcaption>
+</figure>
+
+<h3>Kulturminne</h3>
+<figure>
+  <img src="kulturminne.svg" class="land" width="100" height="100" alt="kulturhistorisk byggnad"/>
+  <figcaption>kulturminne.svg</figcaption>
+</figure>
+
+<h3>Kyrka</h3>
+<figure>
+  <img src="kyrka.svg" class="land" width="100" height="75" alt="församlingskyrka"/>
+  <figcaption>kyrka.svg</figcaption>
+</figure>
+
+<h3>Kyrka, liten</h3>
+<figure>
+  <img src="kyrka_liten.svg" class="land" width="100" height="100" alt="annan kyrka"/>
+  <figcaption>kyrka_liten.svg</figcaption>
+</figure>
+
+<h3>Kåta</h3>
+<figure>
+  <img src="kata.svg" class="land" width="100" height="100" alt=""/>
+  <figcaption>kata.svg</figcaption>
+</figure>
+
+<h3>Mast</h3>
+<figure>
+  <img src="mast.svg" class="land" width="100" height="100" alt=""/>
+  <figcaption>mast.svg</figcaption>
+</figure>
+
+<h3>Milstople</h3>
+<figure>
+  <img src="milstolpe.svg" class="land" width="100" height="26" alt=""/>
+  <figcaption>milstolpe.svg</figcaption>
+</figure>
+
+<h3>Minnessten</h3>
+<figure>
+  <img src="minnessten.svg" class="land" width="100" height="100" alt=""/>
+  <figcaption>minnessten.svg</figcaption>
+</figure>
+
+<h3>Naturminne botaniskt</h3>
+<figure>
+  <img src="naturminne_botaniskt.svg" class="land" width="100" height="100" alt=""/>
+  <figcaption>naturminne_botaniskt.svg</figcaption>
+</figure>
+
+<h3>Naturminne geologiskt</h3>
+<figure>
+  <img src="naturminne_geologiskt.svg" class="land" width="100" height="100" alt=""/>
+  <figcaption>naturminne_geologiskt.svg</figcaption>
+</figure>
+
+<h3>Rastplats</h3>
+<figure>
+  <img src="rastplats.svg" class="land" width="100" height="100" alt=""/>
+  <figcaption>rastplats.svg</figcaption>
+</figure>
+
+<h3>Renstängsel</h3>
+<figure>
+  <img src="renstangsel.svg" class="land" width="100" height="100" alt=""/>
+  <figcaption>renstangsel.svg</figcaption>
+</figure>
+
+<h3>Riksröse</h3>
+<figure>
+  <img src="riksrose.svg" class="land" width="100" height="100" alt=""/>
+  <figcaption>riksrose.svg</figcaption>
+</figure>
+
+<h3>Ruin</h3>
+<figure>
+  <img src="ruin.svg" class="land" width="100" height="100" alt=""/>
+  <figcaption>ruin.svg</figcaption>
+</figure>
+
+<h3>Skorsten</h3>
+<figure>
+  <img src="skorsten.svg" class="land" width="100" height="100" alt=""/>
+  <figcaption>skorsten.svg</figcaption>
+</figure>
+
+<h3>Slussport</h3>
+<figure>
+  <img src="slussport.svg" class="vatten" width="127" height="100" alt="sluss"/>
+  <figcaption>slussport.svg</figcaption>
+</figure>
+
+<h3>Såg, höger</h3>
+<figure>
+  <img src="sag_hoger.svg" class="land" width="100" height="38" alt=""/>
+  <figcaption>sag_hoger.svg</figcaption>
+</figure>
+
+<h3>Såg, vänster</h3>
+<figure>
+  <img src="sag_vanster.svg" class="land" width="100" height="38" alt=""/>
+  <figcaption>sag_vanster.svg</figcaption>
+</figure>
+
+<h3>Torn</h3>
+<figure>
+  <img src="torn.svg" class="land" width="100" height="100" alt=""/>
+  <figcaption>torn.svg</figcaption>
+</figure>
+
+<h3>Transformator</h3>
+<figure>
+  <img src="transformator.svg" class="land" width="100" height="100" alt=""/>
+  <figcaption>transformator.svg</figcaption>
+</figure>
+
+<h3>Triangelpunkt</h3>
+<figure>
+  <img src="triangelpunkt.svg" class="land" width="100" height="117" alt=""/>
+  <figcaption>triangelpunkt.svg</figcaption>
+</figure>
+
+<h3>Tunnel</h3>
+<figure>
+  <img src="tunnel.svg" class="land" width="130" height="100" alt=""/>
+  <figcaption>tunnel.svg</figcaption>
+</figure>
+
+<h3>Underfart, höger</h3>
+<figure>
+  <img src="underfart_hoger.svg" class="land" width="100" height="100" alt="planskild korsning, höger"/>
+  <figcaption>underfart_hoger.svg</figcaption>
+</figure>
+
+<h3>Underfart, vänster</h3>
+<figure>
+  <img src="underfart_vanster.svg" class="land" width="100" height="100" alt="planskild korsning, vänster"/>
+  <figcaption>underfart_vanster.svg</figcaption>
+</figure>
+
+<h3>Vattenpilriktning</h3>
+<figure>
+  <img src="vatten_pil_riktning.svg" class="land" width="100" height="33" alt="strömriktning"/>
+  <figcaption>vatten_pil_riktning.svg</figcaption>
+</figure>
+
+<h3>Vindkraftverk</h3>
+<figure>
+  <img src="vindkraft.svg" class="land" width="114" height="100" alt=""/>
+  <figcaption>vindkraft.svg</figcaption>
+</figure>
+
+<h3>Vindskydd1</h3>
+<figure>
+  <img src="vindskydd1.svg" class="land" width="100" height="100" alt=""/>
+  <figcaption>vindskydd1.svg</figcaption>
+</figure>
+
+<h3>Vindskydd2</h3>
+<figure>
+  <img src="vindskydd2.svg" class="land" width="100" height="100" alt=""/>
+  <figcaption>vindskydd2.svg</figcaption>
+</figure>
+
+<h3>Vindskydd3</h3>
+<figure>
+  <img src="vindskydd3.svg" class="land" width="100" height="100" alt=""/>
+  <figcaption>vindskydd3.svg</figcaption>
+</figure>
+
+<h3>Väderkvarn</h3>
+<figure>
+  <img src="vaderkvarn1.svg" class="land" width="100" height="100" alt=""/>
+  <figcaption>vaderkvarn1.svg</figcaption>
+</figure>
+
+<h3>Vägbom</h3>
+<figure>
+  <img src="vagbom.svg" class="land" width="100" height="26" alt=""/>
+  <figcaption>vagbom.svg</figcaption>
+</figure>
+
+<h3>Vändplats</h3>
+<figure>
+  <img src="vandplats.svg" class="land" width="100" height="100" alt="vändplan"/>
+  <figcaption>vandplats.svg</figcaption>
+</figure>
+<!-- 2021-02 -->
+</body>
+</html>
