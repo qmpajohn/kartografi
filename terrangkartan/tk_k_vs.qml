@@ -1,28 +1,28 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis hasScaleBasedVisibilityFlag="1" version="3.16.3-Hannover" styleCategories="AllStyleCategories" minScale="50050" simplifyAlgorithm="0" simplifyDrawingTol="1" maxScale="0" labelsEnabled="0" simplifyLocal="1" simplifyDrawingHints="0" readOnly="0" simplifyMaxScale="1">
+<qgis simplifyAlgorithm="0" readOnly="0" simplifyDrawingHints="0" version="3.16.4-Hannover" simplifyMaxScale="1" styleCategories="AllStyleCategories" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="1" minScale="50050" maxScale="0" simplifyLocal="1" labelsEnabled="0">
   <flags>
     <Identifiable>1</Identifiable>
     <Removable>1</Removable>
     <Searchable>1</Searchable>
   </flags>
-  <temporal endField="" enabled="0" startField="" fixedDuration="0" mode="0" startExpression="" durationField="" accumulate="0" endExpression="" durationUnit="min">
+  <temporal enabled="0" startField="" mode="0" endExpression="" accumulate="0" durationField="" durationUnit="min" fixedDuration="0" endField="" startExpression="">
     <fixedRange>
       <start></start>
       <end></end>
     </fixedRange>
   </temporal>
-  <renderer-v2 type="categorizedSymbol" symbollevels="0" attr="KKOD" enableorderby="0" forceraster="0">
+  <renderer-v2 forceraster="0" symbollevels="0" attr="KKOD" enableorderby="0" type="categorizedSymbol">
     <categories>
-      <category render="true" symbol="0" value="323" label="Öppningsbar bro"/>
-      <category render="true" symbol="1" value="343" label="Tunnelöppning för väg"/>
-      <category render="true" symbol="2" value="345" label="Vägbom"/>
-      <category render="true" symbol="3" value="346" label="Vändplan"/>
-      <category render="true" symbol="4" value="776" label="Rastplats"/>
-      <category render="true" symbol="5" value="" label=""/>
+      <category label="Öppningsbar bro" render="true" value="323" symbol="0"/>
+      <category label="Tunnelöppning för väg" render="true" value="343" symbol="1"/>
+      <category label="Vägbom" render="true" value="345" symbol="2"/>
+      <category label="Vändplan" render="true" value="346" symbol="3"/>
+      <category label="Rastplats" render="true" value="776" symbol="4"/>
+      <category label="" render="true" value="" symbol="5"/>
     </categories>
     <symbols>
-      <symbol type="marker" clip_to_extent="1" name="0" alpha="1" force_rhr="0">
-        <layer enabled="1" pass="0" locked="0" class="SvgMarker">
+      <symbol alpha="1" force_rhr="0" type="marker" clip_to_extent="1" name="0">
+        <layer enabled="1" locked="0" pass="0" class="SvgMarker">
           <prop v="0" k="angle"/>
           <prop v="72,72,72,255" k="color"/>
           <prop v="0" k="fixedAspectRatio"/>
@@ -55,8 +55,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol type="marker" clip_to_extent="1" name="1" alpha="1" force_rhr="0">
-        <layer enabled="1" pass="0" locked="0" class="SvgMarker">
+      <symbol alpha="1" force_rhr="0" type="marker" clip_to_extent="1" name="1">
+        <layer enabled="1" locked="0" pass="0" class="SvgMarker">
           <prop v="0" k="angle"/>
           <prop v="72,72,72,255" k="color"/>
           <prop v="0" k="fixedAspectRatio"/>
@@ -89,8 +89,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol type="marker" clip_to_extent="1" name="2" alpha="1" force_rhr="0">
-        <layer enabled="1" pass="0" locked="0" class="SvgMarker">
+      <symbol alpha="1" force_rhr="0" type="marker" clip_to_extent="1" name="2">
+        <layer enabled="1" locked="0" pass="0" class="SvgMarker">
           <prop v="0" k="angle"/>
           <prop v="72,72,72,255" k="color"/>
           <prop v="0" k="fixedAspectRatio"/>
@@ -123,8 +123,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol type="marker" clip_to_extent="1" name="3" alpha="1" force_rhr="0">
-        <layer enabled="1" pass="0" locked="0" class="SvgMarker">
+      <symbol alpha="1" force_rhr="0" type="marker" clip_to_extent="1" name="3">
+        <layer enabled="1" locked="0" pass="0" class="SvgMarker">
           <prop v="0" k="angle"/>
           <prop v="72,72,72,255" k="color"/>
           <prop v="0" k="fixedAspectRatio"/>
@@ -151,8 +151,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol type="marker" clip_to_extent="1" name="4" alpha="1" force_rhr="0">
-        <layer enabled="1" pass="0" locked="0" class="SvgMarker">
+      <symbol alpha="1" force_rhr="0" type="marker" clip_to_extent="1" name="4">
+        <layer enabled="1" locked="0" pass="0" class="SvgMarker">
           <prop v="0" k="angle"/>
           <prop v="192,33,94,255" k="color"/>
           <prop v="1" k="fixedAspectRatio"/>
@@ -179,8 +179,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol type="marker" clip_to_extent="1" name="5" alpha="1" force_rhr="0">
-        <layer enabled="1" pass="0" locked="0" class="SimpleMarker">
+      <symbol alpha="1" force_rhr="0" type="marker" clip_to_extent="1" name="5">
+        <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
           <prop v="0" k="angle"/>
           <prop v="255,0,0,255" k="color"/>
           <prop v="1" k="horizontal_anchor_point"/>
@@ -210,8 +210,8 @@
       </symbol>
     </symbols>
     <source-symbol>
-      <symbol type="marker" clip_to_extent="1" name="0" alpha="1" force_rhr="0">
-        <layer enabled="1" pass="0" locked="0" class="SimpleMarker">
+      <symbol alpha="1" force_rhr="0" type="marker" clip_to_extent="1" name="0">
+        <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
           <prop v="0" k="angle"/>
           <prop v="114,155,111,255" k="color"/>
           <prop v="1" k="horizontal_anchor_point"/>
@@ -244,7 +244,7 @@
     <sizescale/>
   </renderer-v2>
   <customproperties>
-    <property value="0" key="embeddedWidgets/count"/>
+    <property key="embeddedWidgets/count" value="0"/>
     <property key="variableNames"/>
     <property key="variableValues"/>
   </customproperties>
@@ -252,12 +252,12 @@
   <featureBlendMode>0</featureBlendMode>
   <layerOpacity>1</layerOpacity>
   <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-    <DiagramCategory spacingUnit="MM" direction="1" minScaleDenominator="0" showAxis="0" width="15" minimumSize="0" barWidth="5" penAlpha="255" scaleBasedVisibility="0" penWidth="0" backgroundColor="#ffffff" rotationOffset="270" sizeScale="3x:0,0,0,0,0,0" opacity="1" height="15" sizeType="MM" spacingUnitScale="3x:0,0,0,0,0,0" lineSizeType="MM" maxScaleDenominator="1e+08" labelPlacementMethod="XHeight" enabled="0" backgroundAlpha="255" diagramOrientation="Up" lineSizeScale="3x:0,0,0,0,0,0" spacing="0" penColor="#000000" scaleDependency="Area">
-      <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+    <DiagramCategory width="15" diagramOrientation="Up" lineSizeType="MM" height="15" rotationOffset="270" spacingUnit="MM" showAxis="0" spacing="0" barWidth="5" sizeType="MM" penAlpha="255" penColor="#000000" maxScaleDenominator="1e+08" backgroundColor="#ffffff" minScaleDenominator="0" sizeScale="3x:0,0,0,0,0,0" lineSizeScale="3x:0,0,0,0,0,0" minimumSize="0" penWidth="0" backgroundAlpha="255" spacingUnitScale="3x:0,0,0,0,0,0" scaleBasedVisibility="0" scaleDependency="Area" opacity="1" labelPlacementMethod="XHeight" direction="1" enabled="0">
+      <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
       <attribute field="" color="#000000" label=""/>
       <axisSymbol>
-        <symbol type="line" clip_to_extent="1" name="" alpha="1" force_rhr="0">
-          <layer enabled="1" pass="0" locked="0" class="SimpleLine">
+        <symbol alpha="1" force_rhr="0" type="line" clip_to_extent="1" name="">
+          <layer enabled="1" locked="0" pass="0" class="SimpleLine">
             <prop v="0" k="align_dash_pattern"/>
             <prop v="square" k="capstyle"/>
             <prop v="5;2" k="customdash"/>
@@ -291,7 +291,7 @@
       </axisSymbol>
     </DiagramCategory>
   </SingleCategoryDiagramRenderer>
-  <DiagramLayerSettings zIndex="0" dist="0" placement="0" linePlacementFlags="18" obstacle="0" showAll="1" priority="0">
+  <DiagramLayerSettings linePlacementFlags="18" placement="0" dist="0" obstacle="0" priority="0" showAll="1" zIndex="0">
     <properties>
       <Option type="Map">
         <Option type="QString" value="" name="name"/>
@@ -335,14 +335,14 @@
     <alias field="SRIKT" index="2" name=""/>
   </aliases>
   <defaults>
-    <default field="KKOD" expression="" applyOnUpdate="0"/>
-    <default field="KATEGORI" expression="" applyOnUpdate="0"/>
-    <default field="SRIKT" expression="" applyOnUpdate="0"/>
+    <default field="KKOD" applyOnUpdate="0" expression=""/>
+    <default field="KATEGORI" applyOnUpdate="0" expression=""/>
+    <default field="SRIKT" applyOnUpdate="0" expression=""/>
   </defaults>
   <constraints>
-    <constraint field="KKOD" unique_strength="0" exp_strength="0" constraints="0" notnull_strength="0"/>
-    <constraint field="KATEGORI" unique_strength="0" exp_strength="0" constraints="0" notnull_strength="0"/>
-    <constraint field="SRIKT" unique_strength="0" exp_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint notnull_strength="0" exp_strength="0" field="KKOD" constraints="0" unique_strength="0"/>
+    <constraint notnull_strength="0" exp_strength="0" field="KATEGORI" constraints="0" unique_strength="0"/>
+    <constraint notnull_strength="0" exp_strength="0" field="SRIKT" constraints="0" unique_strength="0"/>
   </constraints>
   <constraintExpressions>
     <constraint field="KKOD" desc="" exp=""/>
@@ -351,14 +351,14 @@
   </constraintExpressions>
   <expressionfields/>
   <attributeactions>
-    <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+    <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
   </attributeactions>
-  <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+  <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
     <columns>
-      <column type="field" width="-1" hidden="0" name="KKOD"/>
-      <column type="field" width="-1" hidden="0" name="KATEGORI"/>
-      <column type="field" width="-1" hidden="0" name="SRIKT"/>
-      <column type="actions" width="-1" hidden="1"/>
+      <column width="-1" hidden="0" type="field" name="KKOD"/>
+      <column width="-1" hidden="0" type="field" name="KATEGORI"/>
+      <column width="-1" hidden="0" type="field" name="SRIKT"/>
+      <column width="-1" hidden="1" type="actions"/>
     </columns>
   </attributetableconfig>
   <conditionalstyles>

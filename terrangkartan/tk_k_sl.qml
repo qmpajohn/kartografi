@@ -1,24 +1,24 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis labelsEnabled="0" simplifyDrawingHints="1" minScale="50050" version="3.16.3-Hannover" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="1" simplifyMaxScale="1" simplifyLocal="1" simplifyAlgorithm="0" maxScale="0" readOnly="0" simplifyDrawingTol="1">
+<qgis simplifyAlgorithm="0" readOnly="0" simplifyDrawingHints="1" version="3.16.4-Hannover" simplifyMaxScale="1" styleCategories="AllStyleCategories" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="1" minScale="50050" maxScale="0" simplifyLocal="1" labelsEnabled="0">
   <flags>
     <Identifiable>1</Identifiable>
     <Removable>1</Removable>
     <Searchable>1</Searchable>
   </flags>
-  <temporal fixedDuration="0" enabled="0" durationField="" endExpression="" mode="0" durationUnit="min" startExpression="" startField="" endField="" accumulate="0">
+  <temporal enabled="0" startField="" mode="0" endExpression="" accumulate="0" durationField="" durationUnit="min" fixedDuration="0" endField="" startExpression="">
     <fixedRange>
       <start></start>
       <end></end>
     </fixedRange>
   </temporal>
-  <renderer-v2 attr="KKOD" forceraster="0" enableorderby="0" symbollevels="0" type="categorizedSymbol">
+  <renderer-v2 forceraster="0" symbollevels="0" attr="KKOD" enableorderby="0" type="categorizedSymbol">
     <categories>
-      <category value="447" symbol="0" render="true" label="Träd- och buskridå"/>
-      <category value="" symbol="1" render="true" label=""/>
+      <category label="Träd- och buskridå" render="true" value="447" symbol="0"/>
+      <category label="" render="true" value="" symbol="1"/>
     </categories>
     <symbols>
-      <symbol force_rhr="0" name="0" type="line" alpha="1" clip_to_extent="1">
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+      <symbol alpha="1" force_rhr="0" type="line" clip_to_extent="1" name="0">
+        <layer enabled="1" locked="0" pass="0" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MapUnit" k="average_angle_unit"/>
@@ -36,13 +36,13 @@
           <prop v="0" k="rotate"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option type="QString" value="" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" name="@0@0" type="marker" alpha="1" clip_to_extent="1">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol alpha="1" force_rhr="0" type="marker" clip_to_extent="1" name="@0@0">
+            <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="0,193,19,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -63,17 +63,17 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option type="QString" value="" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </layer>
       </symbol>
-      <symbol force_rhr="0" name="1" type="line" alpha="1" clip_to_extent="1">
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+      <symbol alpha="1" force_rhr="0" type="line" clip_to_extent="1" name="1">
+        <layer enabled="1" locked="0" pass="0" class="SimpleLine">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="round" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
@@ -97,17 +97,17 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option type="QString" value="" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
     </symbols>
     <source-symbol>
-      <symbol force_rhr="0" name="0" type="line" alpha="1" clip_to_extent="1">
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+      <symbol alpha="1" force_rhr="0" type="line" clip_to_extent="1" name="0">
+        <layer enabled="1" locked="0" pass="0" class="SimpleLine">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="square" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
@@ -131,9 +131,9 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option type="QString" value="" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
@@ -150,13 +150,13 @@
   <blendMode>0</blendMode>
   <featureBlendMode>0</featureBlendMode>
   <layerOpacity>1</layerOpacity>
-  <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
-    <DiagramCategory minimumSize="0" maxScaleDenominator="1e+08" scaleDependency="Area" backgroundColor="#ffffff" enabled="0" barWidth="5" width="15" penAlpha="255" opacity="1" spacingUnit="MM" minScaleDenominator="0" diagramOrientation="Up" spacing="0" direction="1" sizeScale="3x:0,0,0,0,0,0" lineSizeType="MM" labelPlacementMethod="XHeight" sizeType="MM" penWidth="0" height="15" scaleBasedVisibility="0" spacingUnitScale="3x:0,0,0,0,0,0" showAxis="0" backgroundAlpha="255" penColor="#000000" lineSizeScale="3x:0,0,0,0,0,0" rotationOffset="270">
-      <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+  <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+    <DiagramCategory width="15" diagramOrientation="Up" lineSizeType="MM" height="15" rotationOffset="270" spacingUnit="MM" showAxis="0" spacing="0" barWidth="5" sizeType="MM" penAlpha="255" penColor="#000000" maxScaleDenominator="1e+08" backgroundColor="#ffffff" minScaleDenominator="0" sizeScale="3x:0,0,0,0,0,0" lineSizeScale="3x:0,0,0,0,0,0" minimumSize="0" penWidth="0" backgroundAlpha="255" spacingUnitScale="3x:0,0,0,0,0,0" scaleBasedVisibility="0" scaleDependency="Area" opacity="1" labelPlacementMethod="XHeight" direction="1" enabled="0">
+      <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
       <attribute field="" color="#000000" label=""/>
       <axisSymbol>
-        <symbol force_rhr="0" name="" type="line" alpha="1" clip_to_extent="1">
-          <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <symbol alpha="1" force_rhr="0" type="line" clip_to_extent="1" name="">
+          <layer enabled="1" locked="0" pass="0" class="SimpleLine">
             <prop v="0" k="align_dash_pattern"/>
             <prop v="square" k="capstyle"/>
             <prop v="5;2" k="customdash"/>
@@ -180,9 +180,9 @@
             <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
             <data_defined_properties>
               <Option type="Map">
-                <Option value="" name="name" type="QString"/>
+                <Option type="QString" value="" name="name"/>
                 <Option name="properties"/>
-                <Option value="collection" name="type" type="QString"/>
+                <Option type="QString" value="collection" name="type"/>
               </Option>
             </data_defined_properties>
           </layer>
@@ -190,30 +190,30 @@
       </axisSymbol>
     </DiagramCategory>
   </SingleCategoryDiagramRenderer>
-  <DiagramLayerSettings zIndex="0" dist="0" placement="2" priority="0" obstacle="0" linePlacementFlags="18" showAll="1">
+  <DiagramLayerSettings linePlacementFlags="18" placement="2" dist="0" obstacle="0" priority="0" showAll="1" zIndex="0">
     <properties>
       <Option type="Map">
-        <Option value="" name="name" type="QString"/>
+        <Option type="QString" value="" name="name"/>
         <Option name="properties"/>
-        <Option value="collection" name="type" type="QString"/>
+        <Option type="QString" value="collection" name="type"/>
       </Option>
     </properties>
   </DiagramLayerSettings>
-  <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+  <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
     <activeChecks/>
     <checkConfiguration/>
   </geometryOptions>
   <legend type="default-vector"/>
   <referencedLayers/>
   <fieldConfiguration>
-    <field name="KKOD" configurationFlags="None">
+    <field configurationFlags="None" name="KKOD">
       <editWidget type="Range">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="KATEGORI" configurationFlags="None">
+    <field configurationFlags="None" name="KATEGORI">
       <editWidget type="TextEdit">
         <config>
           <Option/>
@@ -222,29 +222,29 @@
     </field>
   </fieldConfiguration>
   <aliases>
-    <alias field="KKOD" name="" index="0"/>
-    <alias field="KATEGORI" name="" index="1"/>
+    <alias field="KKOD" index="0" name=""/>
+    <alias field="KATEGORI" index="1" name=""/>
   </aliases>
   <defaults>
     <default field="KKOD" applyOnUpdate="0" expression=""/>
     <default field="KATEGORI" applyOnUpdate="0" expression=""/>
   </defaults>
   <constraints>
-    <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="KKOD" constraints="0"/>
-    <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="KATEGORI" constraints="0"/>
+    <constraint notnull_strength="0" exp_strength="0" field="KKOD" constraints="0" unique_strength="0"/>
+    <constraint notnull_strength="0" exp_strength="0" field="KATEGORI" constraints="0" unique_strength="0"/>
   </constraints>
   <constraintExpressions>
-    <constraint desc="" field="KKOD" exp=""/>
-    <constraint desc="" field="KATEGORI" exp=""/>
+    <constraint field="KKOD" desc="" exp=""/>
+    <constraint field="KATEGORI" desc="" exp=""/>
   </constraintExpressions>
   <expressionfields/>
   <attributeactions>
     <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
   </attributeactions>
-  <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+  <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
     <columns>
-      <column width="-1" hidden="0" name="KKOD" type="field"/>
-      <column width="-1" hidden="0" name="KATEGORI" type="field"/>
+      <column width="-1" hidden="0" type="field" name="KKOD"/>
+      <column width="-1" hidden="0" type="field" name="KATEGORI"/>
       <column width="-1" hidden="1" type="actions"/>
     </columns>
   </attributetableconfig>
@@ -275,12 +275,12 @@ def my_form_open(dialog, layer, feature):
   <featformsuppress>0</featformsuppress>
   <editorlayout>generatedlayout</editorlayout>
   <editable>
-    <field name="KATEGORI" editable="1"/>
-    <field name="KKOD" editable="1"/>
+    <field editable="1" name="KATEGORI"/>
+    <field editable="1" name="KKOD"/>
   </editable>
   <labelOnTop>
-    <field labelOnTop="0" name="KATEGORI"/>
-    <field labelOnTop="0" name="KKOD"/>
+    <field name="KATEGORI" labelOnTop="0"/>
+    <field name="KKOD" labelOnTop="0"/>
   </labelOnTop>
   <dataDefinedFieldProperties/>
   <widgets/>

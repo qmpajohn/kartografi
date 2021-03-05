@@ -1,17 +1,17 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis styleCategories="AllStyleCategories" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyLocal="1" readOnly="0" minScale="300000" hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="1" maxScale="0" labelsEnabled="0" version="3.16.4-Hannover" simplifyAlgorithm="0">
+<qgis version="3.16.4-Hannover" simplifyMaxScale="1" simplifyAlgorithm="0" readOnly="0" styleCategories="LayerConfiguration|Symbology|Symbology3D|Labeling|Fields|Actions|MapTips|Diagrams|AttributeTable|Rendering|CustomProperties|GeometryOptions|Relations|Temporal|Legend" labelsEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" minScale="300000" maxScale="0" simplifyDrawingTol="1" simplifyDrawingHints="1">
   <flags>
     <Identifiable>1</Identifiable>
     <Removable>1</Removable>
     <Searchable>1</Searchable>
   </flags>
-  <temporal startField="" startExpression="" accumulate="0" endField="" mode="0" durationUnit="min" fixedDuration="0" enabled="0" endExpression="" durationField="">
+  <temporal endField="" endExpression="" mode="0" startExpression="" durationField="" enabled="0" durationUnit="min" startField="" fixedDuration="0" accumulate="0">
     <fixedRange>
       <start></start>
       <end></end>
     </fixedRange>
   </temporal>
-  <renderer-v2 symbollevels="1" forceraster="0" enableorderby="0" type="categorizedSymbol" attr="KKOD">
+  <renderer-v2 symbollevels="1" type="categorizedSymbol" attr="KKOD" forceraster="0" enableorderby="0">
     <categories>
       <category value="336" label="Färjeled" symbol="0" render="true"/>
       <category value="5011" label="Motorväg" symbol="1" render="true"/>
@@ -48,8 +48,8 @@
       <category value="" label="" symbol="32" render="true"/>
     </categories>
     <symbols>
-      <symbol force_rhr="0" name="0" clip_to_extent="1" type="line" alpha="1">
-        <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="0">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="0">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="106;70" k="customdash"/>
@@ -73,15 +73,15 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" name="1" clip_to_extent="1" type="line" alpha="1">
-        <layer class="SimpleLine" pass="3" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="1">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="3">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
@@ -105,13 +105,13 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" pass="10" locked="0" enabled="1">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="10">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
@@ -135,15 +135,15 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" name="10" clip_to_extent="1" type="line" alpha="1">
-        <layer class="SimpleLine" pass="1" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="10">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="1">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
@@ -167,13 +167,13 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" pass="2" locked="0" enabled="1">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="2">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
@@ -197,15 +197,15 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" name="11" clip_to_extent="1" type="line" alpha="1">
-        <layer class="SimpleLine" pass="1" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="11">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="1">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
@@ -229,15 +229,15 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" name="12" clip_to_extent="1" type="line" alpha="1">
-        <layer class="SimpleLine" pass="1" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="12">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="1">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
@@ -261,15 +261,15 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" name="13" clip_to_extent="1" type="line" alpha="1">
-        <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="13">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="0">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
@@ -293,13 +293,13 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" pass="1" locked="0" enabled="1">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="1">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
@@ -323,15 +323,15 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" name="14" clip_to_extent="1" type="line" alpha="1">
-        <layer class="SimpleLine" pass="1" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="14">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="1">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
@@ -355,15 +355,15 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" name="15" clip_to_extent="1" type="line" alpha="1">
-        <layer class="SimpleLine" pass="1" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="15">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="1">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="159;35" k="customdash"/>
@@ -387,15 +387,15 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" name="16" clip_to_extent="1" type="line" alpha="1">
-        <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="16">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="0">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
@@ -419,15 +419,15 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" name="17" clip_to_extent="1" type="line" alpha="1">
-        <layer class="MarkerLine" pass="9" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="17">
+        <layer locked="0" class="MarkerLine" enabled="1" pass="9">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MapUnit" k="average_angle_unit"/>
@@ -445,13 +445,13 @@
           <prop v="1" k="rotate"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" name="@17@0" clip_to_extent="1" type="marker" alpha="1">
-            <layer class="SvgMarker" pass="0" locked="0" enabled="1">
+          <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="@17@0">
+            <layer locked="0" class="SvgMarker" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="94,94,94,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
@@ -471,15 +471,15 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" pass="9" locked="0" enabled="1">
+        <layer locked="0" class="MarkerLine" enabled="1" pass="9">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MapUnit" k="average_angle_unit"/>
@@ -497,13 +497,13 @@
           <prop v="1" k="rotate"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" name="@17@1" clip_to_extent="1" type="marker" alpha="1">
-            <layer class="SvgMarker" pass="0" locked="0" enabled="1">
+          <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="@17@1">
+            <layer locked="0" class="SvgMarker" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="94,94,94,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
@@ -523,15 +523,15 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="0">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="53;35" k="customdash"/>
@@ -555,21 +555,21 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
-              <Option name="properties" type="Map">
-                <Option name="enabled" type="Map">
-                  <Option value="true" name="active" type="bool"/>
-                  <Option value="$length>300" name="expression" type="QString"/>
-                  <Option value="3" name="type" type="int"/>
+              <Option value="" type="QString" name="name"/>
+              <Option type="Map" name="properties">
+                <Option type="Map" name="enabled">
+                  <Option value="true" type="bool" name="active"/>
+                  <Option value="$length>300" type="QString" name="expression"/>
+                  <Option value="3" type="int" name="type"/>
                 </Option>
               </Option>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" name="18" clip_to_extent="1" type="line" alpha="1">
-        <layer class="MarkerLine" pass="9" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="18">
+        <layer locked="0" class="MarkerLine" enabled="1" pass="9">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MapUnit" k="average_angle_unit"/>
@@ -587,13 +587,13 @@
           <prop v="1" k="rotate"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" name="@18@0" clip_to_extent="1" type="marker" alpha="1">
-            <layer class="SvgMarker" pass="0" locked="0" enabled="1">
+          <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="@18@0">
+            <layer locked="0" class="SvgMarker" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="94,94,94,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
@@ -613,15 +613,15 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" pass="9" locked="0" enabled="1">
+        <layer locked="0" class="MarkerLine" enabled="1" pass="9">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MapUnit" k="average_angle_unit"/>
@@ -639,13 +639,13 @@
           <prop v="1" k="rotate"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" name="@18@1" clip_to_extent="1" type="marker" alpha="1">
-            <layer class="SvgMarker" pass="0" locked="0" enabled="1">
+          <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="@18@1">
+            <layer locked="0" class="SvgMarker" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="94,94,94,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
@@ -665,15 +665,15 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="0">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="53;35" k="customdash"/>
@@ -697,21 +697,21 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
-              <Option name="properties" type="Map">
-                <Option name="enabled" type="Map">
-                  <Option value="true" name="active" type="bool"/>
-                  <Option value="$length>300" name="expression" type="QString"/>
-                  <Option value="3" name="type" type="int"/>
+              <Option value="" type="QString" name="name"/>
+              <Option type="Map" name="properties">
+                <Option type="Map" name="enabled">
+                  <Option value="true" type="bool" name="active"/>
+                  <Option value="$length>300" type="QString" name="expression"/>
+                  <Option value="3" type="int" name="type"/>
                 </Option>
               </Option>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" name="19" clip_to_extent="1" type="line" alpha="1">
-        <layer class="MarkerLine" pass="9" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="19">
+        <layer locked="0" class="MarkerLine" enabled="1" pass="9">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -729,13 +729,13 @@
           <prop v="1" k="rotate"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" name="@19@0" clip_to_extent="1" type="marker" alpha="1">
-            <layer class="SvgMarker" pass="0" locked="0" enabled="1">
+          <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="@19@0">
+            <layer locked="0" class="SvgMarker" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="94,94,94,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
@@ -755,15 +755,15 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" pass="9" locked="0" enabled="1">
+        <layer locked="0" class="MarkerLine" enabled="1" pass="9">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -781,13 +781,13 @@
           <prop v="1" k="rotate"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" name="@19@1" clip_to_extent="1" type="marker" alpha="1">
-            <layer class="SvgMarker" pass="0" locked="0" enabled="1">
+          <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="@19@1">
+            <layer locked="0" class="SvgMarker" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="94,94,94,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
@@ -807,15 +807,15 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="0">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="53;35" k="customdash"/>
@@ -839,21 +839,21 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
-              <Option name="properties" type="Map">
-                <Option name="enabled" type="Map">
-                  <Option value="true" name="active" type="bool"/>
-                  <Option value="$length>300" name="expression" type="QString"/>
-                  <Option value="3" name="type" type="int"/>
+              <Option value="" type="QString" name="name"/>
+              <Option type="Map" name="properties">
+                <Option type="Map" name="enabled">
+                  <Option value="true" type="bool" name="active"/>
+                  <Option value="$length>300" type="QString" name="expression"/>
+                  <Option value="3" type="int" name="type"/>
                 </Option>
               </Option>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" name="2" clip_to_extent="1" type="line" alpha="1">
-        <layer class="SimpleLine" pass="3" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="2">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="3">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="246;53" k="customdash"/>
@@ -877,15 +877,15 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" name="20" clip_to_extent="1" type="line" alpha="1">
-        <layer class="MarkerLine" pass="9" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="20">
+        <layer locked="0" class="MarkerLine" enabled="1" pass="9">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MapUnit" k="average_angle_unit"/>
@@ -903,13 +903,13 @@
           <prop v="1" k="rotate"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" name="@20@0" clip_to_extent="1" type="marker" alpha="1">
-            <layer class="SvgMarker" pass="0" locked="0" enabled="1">
+          <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="@20@0">
+            <layer locked="0" class="SvgMarker" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="94,94,94,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
@@ -929,15 +929,15 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" pass="9" locked="0" enabled="1">
+        <layer locked="0" class="MarkerLine" enabled="1" pass="9">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MapUnit" k="average_angle_unit"/>
@@ -955,13 +955,13 @@
           <prop v="1" k="rotate"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" name="@20@1" clip_to_extent="1" type="marker" alpha="1">
-            <layer class="SvgMarker" pass="0" locked="0" enabled="1">
+          <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="@20@1">
+            <layer locked="0" class="SvgMarker" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="94,94,94,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
@@ -981,15 +981,15 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="0">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="53;35" k="customdash"/>
@@ -1013,21 +1013,21 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
-              <Option name="properties" type="Map">
-                <Option name="enabled" type="Map">
-                  <Option value="true" name="active" type="bool"/>
-                  <Option value="$length>300" name="expression" type="QString"/>
-                  <Option value="3" name="type" type="int"/>
+              <Option value="" type="QString" name="name"/>
+              <Option type="Map" name="properties">
+                <Option type="Map" name="enabled">
+                  <Option value="true" type="bool" name="active"/>
+                  <Option value="$length>300" type="QString" name="expression"/>
+                  <Option value="3" type="int" name="type"/>
                 </Option>
               </Option>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" name="21" clip_to_extent="1" type="line" alpha="1">
-        <layer class="MarkerLine" pass="9" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="21">
+        <layer locked="0" class="MarkerLine" enabled="1" pass="9">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MapUnit" k="average_angle_unit"/>
@@ -1045,13 +1045,13 @@
           <prop v="1" k="rotate"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" name="@21@0" clip_to_extent="1" type="marker" alpha="1">
-            <layer class="SvgMarker" pass="0" locked="0" enabled="1">
+          <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="@21@0">
+            <layer locked="0" class="SvgMarker" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="94,94,94,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
@@ -1071,15 +1071,15 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" pass="9" locked="0" enabled="1">
+        <layer locked="0" class="MarkerLine" enabled="1" pass="9">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MapUnit" k="average_angle_unit"/>
@@ -1097,13 +1097,13 @@
           <prop v="1" k="rotate"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" name="@21@1" clip_to_extent="1" type="marker" alpha="1">
-            <layer class="SvgMarker" pass="0" locked="0" enabled="1">
+          <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="@21@1">
+            <layer locked="0" class="SvgMarker" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="94,94,94,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
@@ -1123,15 +1123,15 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="0">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="53;35" k="customdash"/>
@@ -1155,21 +1155,21 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
-              <Option name="properties" type="Map">
-                <Option name="enabled" type="Map">
-                  <Option value="true" name="active" type="bool"/>
-                  <Option value="$length>300" name="expression" type="QString"/>
-                  <Option value="3" name="type" type="int"/>
+              <Option value="" type="QString" name="name"/>
+              <Option type="Map" name="properties">
+                <Option type="Map" name="enabled">
+                  <Option value="true" type="bool" name="active"/>
+                  <Option value="$length>300" type="QString" name="expression"/>
+                  <Option value="3" type="int" name="type"/>
                 </Option>
               </Option>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" name="22" clip_to_extent="1" type="line" alpha="1">
-        <layer class="MarkerLine" pass="9" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="22">
+        <layer locked="0" class="MarkerLine" enabled="1" pass="9">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MapUnit" k="average_angle_unit"/>
@@ -1187,13 +1187,13 @@
           <prop v="1" k="rotate"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" name="@22@0" clip_to_extent="1" type="marker" alpha="1">
-            <layer class="SvgMarker" pass="0" locked="0" enabled="1">
+          <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="@22@0">
+            <layer locked="0" class="SvgMarker" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="94,94,94,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
@@ -1213,15 +1213,15 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" pass="9" locked="0" enabled="1">
+        <layer locked="0" class="MarkerLine" enabled="1" pass="9">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MapUnit" k="average_angle_unit"/>
@@ -1239,13 +1239,13 @@
           <prop v="1" k="rotate"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" name="@22@1" clip_to_extent="1" type="marker" alpha="1">
-            <layer class="SvgMarker" pass="0" locked="0" enabled="1">
+          <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="@22@1">
+            <layer locked="0" class="SvgMarker" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="94,94,94,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
@@ -1265,15 +1265,15 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="0">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="53;35" k="customdash"/>
@@ -1297,21 +1297,21 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
-              <Option name="properties" type="Map">
-                <Option name="enabled" type="Map">
-                  <Option value="true" name="active" type="bool"/>
-                  <Option value="$length>300" name="expression" type="QString"/>
-                  <Option value="3" name="type" type="int"/>
+              <Option value="" type="QString" name="name"/>
+              <Option type="Map" name="properties">
+                <Option type="Map" name="enabled">
+                  <Option value="true" type="bool" name="active"/>
+                  <Option value="$length>300" type="QString" name="expression"/>
+                  <Option value="3" type="int" name="type"/>
                 </Option>
               </Option>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" name="23" clip_to_extent="1" type="line" alpha="1">
-        <layer class="MarkerLine" pass="9" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="23">
+        <layer locked="0" class="MarkerLine" enabled="1" pass="9">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MapUnit" k="average_angle_unit"/>
@@ -1329,13 +1329,13 @@
           <prop v="1" k="rotate"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" name="@23@0" clip_to_extent="1" type="marker" alpha="1">
-            <layer class="SvgMarker" pass="0" locked="0" enabled="1">
+          <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="@23@0">
+            <layer locked="0" class="SvgMarker" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="94,94,94,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
@@ -1355,15 +1355,15 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" pass="9" locked="0" enabled="1">
+        <layer locked="0" class="MarkerLine" enabled="1" pass="9">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MapUnit" k="average_angle_unit"/>
@@ -1381,13 +1381,13 @@
           <prop v="1" k="rotate"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" name="@23@1" clip_to_extent="1" type="marker" alpha="1">
-            <layer class="SvgMarker" pass="0" locked="0" enabled="1">
+          <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="@23@1">
+            <layer locked="0" class="SvgMarker" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="94,94,94,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
@@ -1407,15 +1407,15 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="0">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="53;35" k="customdash"/>
@@ -1439,21 +1439,21 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
-              <Option name="properties" type="Map">
-                <Option name="enabled" type="Map">
-                  <Option value="true" name="active" type="bool"/>
-                  <Option value="$length>300" name="expression" type="QString"/>
-                  <Option value="3" name="type" type="int"/>
+              <Option value="" type="QString" name="name"/>
+              <Option type="Map" name="properties">
+                <Option type="Map" name="enabled">
+                  <Option value="true" type="bool" name="active"/>
+                  <Option value="$length>300" type="QString" name="expression"/>
+                  <Option value="3" type="int" name="type"/>
                 </Option>
               </Option>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" name="24" clip_to_extent="1" type="line" alpha="1">
-        <layer class="MarkerLine" pass="9" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="24">
+        <layer locked="0" class="MarkerLine" enabled="1" pass="9">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MapUnit" k="average_angle_unit"/>
@@ -1471,13 +1471,13 @@
           <prop v="1" k="rotate"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" name="@24@0" clip_to_extent="1" type="marker" alpha="1">
-            <layer class="SvgMarker" pass="0" locked="0" enabled="1">
+          <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="@24@0">
+            <layer locked="0" class="SvgMarker" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="94,94,94,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
@@ -1497,15 +1497,15 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" pass="9" locked="0" enabled="1">
+        <layer locked="0" class="MarkerLine" enabled="1" pass="9">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MapUnit" k="average_angle_unit"/>
@@ -1523,13 +1523,13 @@
           <prop v="1" k="rotate"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" name="@24@1" clip_to_extent="1" type="marker" alpha="1">
-            <layer class="SvgMarker" pass="0" locked="0" enabled="1">
+          <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="@24@1">
+            <layer locked="0" class="SvgMarker" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="94,94,94,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
@@ -1549,15 +1549,15 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="0">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="53;53" k="customdash"/>
@@ -1581,21 +1581,21 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
-              <Option name="properties" type="Map">
-                <Option name="enabled" type="Map">
-                  <Option value="true" name="active" type="bool"/>
-                  <Option value="$length>300" name="expression" type="QString"/>
-                  <Option value="3" name="type" type="int"/>
+              <Option value="" type="QString" name="name"/>
+              <Option type="Map" name="properties">
+                <Option type="Map" name="enabled">
+                  <Option value="true" type="bool" name="active"/>
+                  <Option value="$length>300" type="QString" name="expression"/>
+                  <Option value="3" type="int" name="type"/>
                 </Option>
               </Option>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" name="25" clip_to_extent="1" type="line" alpha="1">
-        <layer class="MarkerLine" pass="9" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="25">
+        <layer locked="0" class="MarkerLine" enabled="1" pass="9">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MapUnit" k="average_angle_unit"/>
@@ -1613,13 +1613,13 @@
           <prop v="1" k="rotate"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" name="@25@0" clip_to_extent="1" type="marker" alpha="1">
-            <layer class="SvgMarker" pass="0" locked="0" enabled="1">
+          <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="@25@0">
+            <layer locked="0" class="SvgMarker" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="94,94,94,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
@@ -1639,15 +1639,15 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" pass="9" locked="0" enabled="1">
+        <layer locked="0" class="MarkerLine" enabled="1" pass="9">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MapUnit" k="average_angle_unit"/>
@@ -1665,13 +1665,13 @@
           <prop v="1" k="rotate"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" name="@25@1" clip_to_extent="1" type="marker" alpha="1">
-            <layer class="SvgMarker" pass="0" locked="0" enabled="1">
+          <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="@25@1">
+            <layer locked="0" class="SvgMarker" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="94,94,94,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
@@ -1691,15 +1691,15 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="0">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="53;35" k="customdash"/>
@@ -1723,21 +1723,21 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
-              <Option name="properties" type="Map">
-                <Option name="enabled" type="Map">
-                  <Option value="true" name="active" type="bool"/>
-                  <Option value="$length>300" name="expression" type="QString"/>
-                  <Option value="3" name="type" type="int"/>
+              <Option value="" type="QString" name="name"/>
+              <Option type="Map" name="properties">
+                <Option type="Map" name="enabled">
+                  <Option value="true" type="bool" name="active"/>
+                  <Option value="$length>300" type="QString" name="expression"/>
+                  <Option value="3" type="int" name="type"/>
                 </Option>
               </Option>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" name="26" clip_to_extent="1" type="line" alpha="1">
-        <layer class="MarkerLine" pass="9" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="26">
+        <layer locked="0" class="MarkerLine" enabled="1" pass="9">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MapUnit" k="average_angle_unit"/>
@@ -1755,13 +1755,13 @@
           <prop v="1" k="rotate"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" name="@26@0" clip_to_extent="1" type="marker" alpha="1">
-            <layer class="SvgMarker" pass="0" locked="0" enabled="1">
+          <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="@26@0">
+            <layer locked="0" class="SvgMarker" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="94,94,94,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
@@ -1781,15 +1781,15 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" pass="9" locked="0" enabled="1">
+        <layer locked="0" class="MarkerLine" enabled="1" pass="9">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MapUnit" k="average_angle_unit"/>
@@ -1807,13 +1807,13 @@
           <prop v="1" k="rotate"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" name="@26@1" clip_to_extent="1" type="marker" alpha="1">
-            <layer class="SvgMarker" pass="0" locked="0" enabled="1">
+          <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="@26@1">
+            <layer locked="0" class="SvgMarker" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="94,94,94,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
@@ -1833,15 +1833,15 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="0">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="53;35" k="customdash"/>
@@ -1865,21 +1865,21 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
-              <Option name="properties" type="Map">
-                <Option name="enabled" type="Map">
-                  <Option value="true" name="active" type="bool"/>
-                  <Option value="$length>300" name="expression" type="QString"/>
-                  <Option value="3" name="type" type="int"/>
+              <Option value="" type="QString" name="name"/>
+              <Option type="Map" name="properties">
+                <Option type="Map" name="enabled">
+                  <Option value="true" type="bool" name="active"/>
+                  <Option value="$length>300" type="QString" name="expression"/>
+                  <Option value="3" type="int" name="type"/>
                 </Option>
               </Option>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" name="27" clip_to_extent="1" type="line" alpha="1">
-        <layer class="MarkerLine" pass="9" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="27">
+        <layer locked="0" class="MarkerLine" enabled="1" pass="9">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MapUnit" k="average_angle_unit"/>
@@ -1897,13 +1897,13 @@
           <prop v="1" k="rotate"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" name="@27@0" clip_to_extent="1" type="marker" alpha="1">
-            <layer class="SvgMarker" pass="0" locked="0" enabled="1">
+          <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="@27@0">
+            <layer locked="0" class="SvgMarker" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="94,94,94,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
@@ -1923,15 +1923,15 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" pass="9" locked="0" enabled="1">
+        <layer locked="0" class="MarkerLine" enabled="1" pass="9">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MapUnit" k="average_angle_unit"/>
@@ -1949,13 +1949,13 @@
           <prop v="1" k="rotate"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" name="@27@1" clip_to_extent="1" type="marker" alpha="1">
-            <layer class="SvgMarker" pass="0" locked="0" enabled="1">
+          <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="@27@1">
+            <layer locked="0" class="SvgMarker" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="94,94,94,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
@@ -1975,15 +1975,15 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="0">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="53;35" k="customdash"/>
@@ -2007,21 +2007,21 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
-              <Option name="properties" type="Map">
-                <Option name="enabled" type="Map">
-                  <Option value="true" name="active" type="bool"/>
-                  <Option value="$length>300" name="expression" type="QString"/>
-                  <Option value="3" name="type" type="int"/>
+              <Option value="" type="QString" name="name"/>
+              <Option type="Map" name="properties">
+                <Option type="Map" name="enabled">
+                  <Option value="true" type="bool" name="active"/>
+                  <Option value="$length>300" type="QString" name="expression"/>
+                  <Option value="3" type="int" name="type"/>
                 </Option>
               </Option>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" name="28" clip_to_extent="1" type="line" alpha="1">
-        <layer class="MarkerLine" pass="9" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="28">
+        <layer locked="0" class="MarkerLine" enabled="1" pass="9">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MapUnit" k="average_angle_unit"/>
@@ -2039,13 +2039,13 @@
           <prop v="1" k="rotate"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" name="@28@0" clip_to_extent="1" type="marker" alpha="1">
-            <layer class="SvgMarker" pass="0" locked="0" enabled="1">
+          <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="@28@0">
+            <layer locked="0" class="SvgMarker" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="94,94,94,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
@@ -2065,15 +2065,15 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" pass="9" locked="0" enabled="1">
+        <layer locked="0" class="MarkerLine" enabled="1" pass="9">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MapUnit" k="average_angle_unit"/>
@@ -2091,13 +2091,13 @@
           <prop v="1" k="rotate"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" name="@28@1" clip_to_extent="1" type="marker" alpha="1">
-            <layer class="SvgMarker" pass="0" locked="0" enabled="1">
+          <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="@28@1">
+            <layer locked="0" class="SvgMarker" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="94,94,94,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
@@ -2117,15 +2117,15 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="0">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="53;35" k="customdash"/>
@@ -2149,21 +2149,21 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
-              <Option name="properties" type="Map">
-                <Option name="enabled" type="Map">
-                  <Option value="true" name="active" type="bool"/>
-                  <Option value="$length>300" name="expression" type="QString"/>
-                  <Option value="3" name="type" type="int"/>
+              <Option value="" type="QString" name="name"/>
+              <Option type="Map" name="properties">
+                <Option type="Map" name="enabled">
+                  <Option value="true" type="bool" name="active"/>
+                  <Option value="$length>300" type="QString" name="expression"/>
+                  <Option value="3" type="int" name="type"/>
                 </Option>
               </Option>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" name="29" clip_to_extent="1" type="line" alpha="1">
-        <layer class="MarkerLine" pass="9" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="29">
+        <layer locked="0" class="MarkerLine" enabled="1" pass="9">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MapUnit" k="average_angle_unit"/>
@@ -2181,13 +2181,13 @@
           <prop v="1" k="rotate"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" name="@29@0" clip_to_extent="1" type="marker" alpha="1">
-            <layer class="SvgMarker" pass="0" locked="0" enabled="1">
+          <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="@29@0">
+            <layer locked="0" class="SvgMarker" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="94,94,94,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
@@ -2207,15 +2207,15 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" pass="9" locked="0" enabled="1">
+        <layer locked="0" class="MarkerLine" enabled="1" pass="9">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MapUnit" k="average_angle_unit"/>
@@ -2233,13 +2233,13 @@
           <prop v="1" k="rotate"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" name="@29@1" clip_to_extent="1" type="marker" alpha="1">
-            <layer class="SvgMarker" pass="0" locked="0" enabled="1">
+          <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="@29@1">
+            <layer locked="0" class="SvgMarker" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="94,94,94,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
@@ -2259,15 +2259,15 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="0">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="53;35" k="customdash"/>
@@ -2291,21 +2291,21 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
-              <Option name="properties" type="Map">
-                <Option name="enabled" type="Map">
-                  <Option value="true" name="active" type="bool"/>
-                  <Option value="$length>300" name="expression" type="QString"/>
-                  <Option value="3" name="type" type="int"/>
+              <Option value="" type="QString" name="name"/>
+              <Option type="Map" name="properties">
+                <Option type="Map" name="enabled">
+                  <Option value="true" type="bool" name="active"/>
+                  <Option value="$length>300" type="QString" name="expression"/>
+                  <Option value="3" type="int" name="type"/>
                 </Option>
               </Option>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" name="3" clip_to_extent="1" type="line" alpha="1">
-        <layer class="SimpleLine" pass="3" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="3">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="3">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
@@ -2329,13 +2329,13 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" pass="10" locked="0" enabled="1">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="10">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
@@ -2359,15 +2359,15 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" name="30" clip_to_extent="1" type="line" alpha="1">
-        <layer class="MarkerLine" pass="9" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="30">
+        <layer locked="0" class="MarkerLine" enabled="1" pass="9">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MapUnit" k="average_angle_unit"/>
@@ -2385,13 +2385,13 @@
           <prop v="1" k="rotate"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" name="@30@0" clip_to_extent="1" type="marker" alpha="1">
-            <layer class="SvgMarker" pass="0" locked="0" enabled="1">
+          <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="@30@0">
+            <layer locked="0" class="SvgMarker" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="94,94,94,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
@@ -2411,15 +2411,15 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" pass="9" locked="0" enabled="1">
+        <layer locked="0" class="MarkerLine" enabled="1" pass="9">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MapUnit" k="average_angle_unit"/>
@@ -2437,13 +2437,13 @@
           <prop v="1" k="rotate"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" name="@30@1" clip_to_extent="1" type="marker" alpha="1">
-            <layer class="SvgMarker" pass="0" locked="0" enabled="1">
+          <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="@30@1">
+            <layer locked="0" class="SvgMarker" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="94,94,94,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
@@ -2463,15 +2463,15 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="0">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="53;35" k="customdash"/>
@@ -2495,21 +2495,21 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
-              <Option name="properties" type="Map">
-                <Option name="enabled" type="Map">
-                  <Option value="true" name="active" type="bool"/>
-                  <Option value="$length>300" name="expression" type="QString"/>
-                  <Option value="3" name="type" type="int"/>
+              <Option value="" type="QString" name="name"/>
+              <Option type="Map" name="properties">
+                <Option type="Map" name="enabled">
+                  <Option value="true" type="bool" name="active"/>
+                  <Option value="$length>300" type="QString" name="expression"/>
+                  <Option value="3" type="int" name="type"/>
                 </Option>
               </Option>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" name="31" clip_to_extent="1" type="line" alpha="1">
-        <layer class="MarkerLine" pass="9" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="31">
+        <layer locked="0" class="MarkerLine" enabled="1" pass="9">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MapUnit" k="average_angle_unit"/>
@@ -2527,13 +2527,13 @@
           <prop v="1" k="rotate"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" name="@31@0" clip_to_extent="1" type="marker" alpha="1">
-            <layer class="SvgMarker" pass="0" locked="0" enabled="1">
+          <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="@31@0">
+            <layer locked="0" class="SvgMarker" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="94,94,94,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
@@ -2553,15 +2553,15 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" pass="9" locked="0" enabled="1">
+        <layer locked="0" class="MarkerLine" enabled="1" pass="9">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MapUnit" k="average_angle_unit"/>
@@ -2579,13 +2579,13 @@
           <prop v="1" k="rotate"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" name="@31@1" clip_to_extent="1" type="marker" alpha="1">
-            <layer class="SvgMarker" pass="0" locked="0" enabled="1">
+          <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="@31@1">
+            <layer locked="0" class="SvgMarker" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="94,94,94,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
@@ -2605,15 +2605,15 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option value="" type="QString" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option value="collection" type="QString" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="0">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="53;35" k="customdash"/>
@@ -2637,21 +2637,21 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
-              <Option name="properties" type="Map">
-                <Option name="enabled" type="Map">
-                  <Option value="true" name="active" type="bool"/>
-                  <Option value="$length>300" name="expression" type="QString"/>
-                  <Option value="3" name="type" type="int"/>
+              <Option value="" type="QString" name="name"/>
+              <Option type="Map" name="properties">
+                <Option type="Map" name="enabled">
+                  <Option value="true" type="bool" name="active"/>
+                  <Option value="$length>300" type="QString" name="expression"/>
+                  <Option value="3" type="int" name="type"/>
                 </Option>
               </Option>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" name="32" clip_to_extent="1" type="line" alpha="1">
-        <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="32">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="0">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="round" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
@@ -2675,15 +2675,15 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" name="4" clip_to_extent="1" type="line" alpha="1">
-        <layer class="SimpleLine" pass="3" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="4">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="3">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
@@ -2707,13 +2707,13 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" pass="10" locked="0" enabled="1">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="10">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
@@ -2737,15 +2737,15 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" name="5" clip_to_extent="1" type="line" alpha="1">
-        <layer class="SimpleLine" pass="3" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="5">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="3">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
@@ -2769,13 +2769,13 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" pass="5" locked="0" enabled="1">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="5">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
@@ -2799,15 +2799,15 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" name="6" clip_to_extent="1" type="line" alpha="1">
-        <layer class="SimpleLine" pass="3" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="6">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="3">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
@@ -2831,13 +2831,13 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" pass="10" locked="0" enabled="1">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="10">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
@@ -2861,15 +2861,15 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" name="7" clip_to_extent="1" type="line" alpha="1">
-        <layer class="SimpleLine" pass="10" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="7">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="10">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
@@ -2893,15 +2893,15 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" name="8" clip_to_extent="1" type="line" alpha="1">
-        <layer class="SimpleLine" pass="3" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="8">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="3">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
@@ -2925,13 +2925,13 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" pass="10" locked="0" enabled="1">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="10">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
@@ -2955,15 +2955,15 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" name="9" clip_to_extent="1" type="line" alpha="1">
-        <layer class="SimpleLine" pass="3" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="9">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="3">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
@@ -2987,13 +2987,13 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" pass="10" locked="0" enabled="1">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="10">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
@@ -3017,17 +3017,17 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
     </symbols>
     <source-symbol>
-      <symbol force_rhr="0" name="0" clip_to_extent="1" type="line" alpha="1">
-        <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+      <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="0">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="0">
           <prop v="0" k="align_dash_pattern"/>
           <prop v="square" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
@@ -3051,9 +3051,9 @@
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
@@ -3071,12 +3071,12 @@
   <featureBlendMode>0</featureBlendMode>
   <layerOpacity>1</layerOpacity>
   <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-    <DiagramCategory showAxis="0" minimumSize="0" sizeType="MM" penColor="#000000" sizeScale="3x:0,0,0,0,0,0" direction="1" scaleBasedVisibility="0" minScaleDenominator="0" scaleDependency="Area" enabled="0" lineSizeType="MM" spacing="0" spacingUnit="MM" lineSizeScale="3x:0,0,0,0,0,0" rotationOffset="270" height="15" backgroundAlpha="255" penWidth="0" spacingUnitScale="3x:0,0,0,0,0,0" diagramOrientation="Up" backgroundColor="#ffffff" labelPlacementMethod="XHeight" barWidth="5" width="15" opacity="1" maxScaleDenominator="1e+08" penAlpha="255">
+    <DiagramCategory spacingUnitScale="3x:0,0,0,0,0,0" sizeScale="3x:0,0,0,0,0,0" height="15" maxScaleDenominator="1e+08" enabled="0" minScaleDenominator="0" backgroundColor="#ffffff" backgroundAlpha="255" spacing="0" lineSizeScale="3x:0,0,0,0,0,0" spacingUnit="MM" direction="1" width="15" scaleDependency="Area" penWidth="0" minimumSize="0" penAlpha="255" barWidth="5" sizeType="MM" scaleBasedVisibility="0" diagramOrientation="Up" penColor="#000000" rotationOffset="270" opacity="1" showAxis="0" labelPlacementMethod="XHeight" lineSizeType="MM">
       <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
-      <attribute label="" color="#000000" field=""/>
+      <attribute label="" field="" color="#000000"/>
       <axisSymbol>
-        <symbol force_rhr="0" name="" clip_to_extent="1" type="line" alpha="1">
-          <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+        <symbol type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="">
+          <layer locked="0" class="SimpleLine" enabled="1" pass="0">
             <prop v="0" k="align_dash_pattern"/>
             <prop v="square" k="capstyle"/>
             <prop v="5;2" k="customdash"/>
@@ -3100,9 +3100,9 @@
             <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
             <data_defined_properties>
               <Option type="Map">
-                <Option value="" name="name" type="QString"/>
+                <Option value="" type="QString" name="name"/>
                 <Option name="properties"/>
-                <Option value="collection" name="type" type="QString"/>
+                <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
           </layer>
@@ -3110,12 +3110,12 @@
       </axisSymbol>
     </DiagramCategory>
   </SingleCategoryDiagramRenderer>
-  <DiagramLayerSettings zIndex="0" placement="2" dist="0" showAll="1" linePlacementFlags="18" priority="0" obstacle="0">
+  <DiagramLayerSettings dist="0" linePlacementFlags="18" showAll="1" placement="2" priority="0" zIndex="0" obstacle="0">
     <properties>
       <Option type="Map">
-        <Option value="" name="name" type="QString"/>
+        <Option value="" type="QString" name="name"/>
         <Option name="properties"/>
-        <Option value="collection" name="type" type="QString"/>
+        <Option value="collection" type="QString" name="type"/>
       </Option>
     </properties>
   </DiagramLayerSettings>
@@ -3126,45 +3126,33 @@
   <legend type="default-vector"/>
   <referencedLayers/>
   <fieldConfiguration>
-    <field name="KKOD" configurationFlags="None">
-      <editWidget type="Range">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field name="KATEGORI" configurationFlags="None">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
+    <field configurationFlags="None" name="KKOD"/>
+    <field configurationFlags="None" name="KATEGORI"/>
   </fieldConfiguration>
   <aliases>
-    <alias name="" index="0" field="KKOD"/>
-    <alias name="" index="1" field="KATEGORI"/>
+    <alias field="KKOD" index="0" name=""/>
+    <alias field="KATEGORI" index="1" name=""/>
   </aliases>
   <defaults>
-    <default applyOnUpdate="0" field="KKOD" expression=""/>
-    <default applyOnUpdate="0" field="KATEGORI" expression=""/>
+    <default field="KKOD" applyOnUpdate="0" expression=""/>
+    <default field="KATEGORI" applyOnUpdate="0" expression=""/>
   </defaults>
   <constraints>
-    <constraint unique_strength="0" constraints="0" field="KKOD" notnull_strength="0" exp_strength="0"/>
-    <constraint unique_strength="0" constraints="0" field="KATEGORI" notnull_strength="0" exp_strength="0"/>
+    <constraint unique_strength="0" constraints="0" field="KKOD" exp_strength="0" notnull_strength="0"/>
+    <constraint unique_strength="0" constraints="0" field="KATEGORI" exp_strength="0" notnull_strength="0"/>
   </constraints>
   <constraintExpressions>
-    <constraint exp="" field="KKOD" desc=""/>
-    <constraint exp="" field="KATEGORI" desc=""/>
+    <constraint field="KKOD" exp="" desc=""/>
+    <constraint field="KATEGORI" exp="" desc=""/>
   </constraintExpressions>
   <expressionfields/>
   <attributeactions>
     <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
   </attributeactions>
-  <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+  <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
     <columns>
-      <column hidden="0" width="-1" name="KKOD" type="field"/>
-      <column hidden="0" width="-1" name="KATEGORI" type="field"/>
+      <column hidden="0" width="-1" type="field" name="KKOD"/>
+      <column hidden="0" width="-1" type="field" name="KATEGORI"/>
       <column hidden="1" width="-1" type="actions"/>
     </columns>
   </attributetableconfig>
@@ -3173,37 +3161,6 @@
     <fieldstyles/>
   </conditionalstyles>
   <storedexpressions/>
-  <editform tolerant="1">C:/WINDOWS</editform>
-  <editforminit/>
-  <editforminitcodesource>0</editforminitcodesource>
-  <editforminitfilepath></editforminitfilepath>
-  <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
-"""
-QGIS formulär kan ha en Pythonfunktion som anropas när formuläret öppnas.
-
-Använd denna funktion för att lägga till extra logik till dina formulär.
-
-Skriv in namnet på funktionen i fältet "Python Init function".
-Ett exempel nedan:
-"""
-from qgis.PyQt.QtWidgets import QWidget
-
-def my_form_open(dialog, layer, feature):
-	geom = feature.geometry()
-	control = dialog.findChild(QWidget, "MyLineEdit")
-]]></editforminitcode>
-  <featformsuppress>0</featformsuppress>
-  <editorlayout>generatedlayout</editorlayout>
-  <editable>
-    <field editable="1" name="KATEGORI"/>
-    <field editable="1" name="KKOD"/>
-  </editable>
-  <labelOnTop>
-    <field labelOnTop="0" name="KATEGORI"/>
-    <field labelOnTop="0" name="KKOD"/>
-  </labelOnTop>
-  <dataDefinedFieldProperties/>
-  <widgets/>
   <previewExpression>"KKOD"</previewExpression>
   <mapTip></mapTip>
   <layerGeometryType>1</layerGeometryType>
