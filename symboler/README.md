@@ -1,2 +1,2 @@
-# Kartsymboler.
-Kartsymboler till QGIS för Lantmäteriets öppna data.
+﻿# 
+Kartsymboler till QGIS för [Lantmäteriets](https://www.lantmateriet.se/) öppna data.

@@ -1,0 +1,7 @@
+<svg enable-background="new 0 0 10 10" width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+<path d="M 10,10 H 0 V 0 H 10 Z
+M 8.44,8.47 V 1.53 H 6.62 V 4.1 H 3.38 V 1.53
+H 1.56 V 8.47 H 3.38 V 5.9 H 6.62 V 8.47 Z"
+fill="param(fill)" fill-opacity="param(fill-opacity)"
+stroke="param(outline)" stroke-opacity="param(outline-opacity)" stroke-width="param(outline-width)"/>
+</svg>
