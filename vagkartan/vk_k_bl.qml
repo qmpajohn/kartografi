@@ -1,31 +1,31 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.22.6-Białowieża" minScale="100050" labelsEnabled="0" simplifyDrawingTol="1" readOnly="0" styleCategories="LayerConfiguration|Symbology|Symbology3D|Labeling|Fields|Actions|MapTips|Diagrams|AttributeTable|Rendering|CustomProperties|GeometryOptions|Relations|Temporal|Legend" simplifyLocal="1" simplifyDrawingHints="1" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="1" simplifyAlgorithm="0" simplifyMaxScale="1">
+<qgis styleCategories="LayerConfiguration|Symbology|Symbology3D|Labeling|Fields|Actions|MapTips|Diagrams|AttributeTable|Rendering|CustomProperties|GeometryOptions|Relations|Temporal|Legend" simplifyDrawingHints="1" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="1" minScale="100050" simplifyDrawingTol="1" simplifyAlgorithm="0" simplifyMaxScale="1" maxScale="0" labelsEnabled="0" version="3.22.6-Białowieża" simplifyLocal="1" readOnly="0">
   <flags>
     <Identifiable>1</Identifiable>
     <Removable>1</Removable>
     <Searchable>1</Searchable>
     <Private>0</Private>
   </flags>
-  <temporal startExpression="" endField="" endExpression="" accumulate="0" durationField="" startField="" durationUnit="min" mode="0" enabled="0" limitMode="0" fixedDuration="0">
+  <temporal durationUnit="min" endField="" startField="" enabled="0" endExpression="" durationField="" fixedDuration="0" accumulate="0" mode="0" startExpression="" limitMode="0">
     <fixedRange>
       <start></start>
       <end></end>
     </fixedRange>
   </temporal>
-  <renderer-v2 type="categorizedSymbol" enableorderby="0" attr="KKOD" referencescale="-1" forceraster="0" symbollevels="0">
+  <renderer-v2 referencescale="-1" type="categorizedSymbol" forceraster="0" symbollevels="0" attr="KKOD" enableorderby="0">
     <categories>
-      <category label="Anläggningsområde, streckad linje" symbol="0" render="true" value="75"/>
-      <category label="Anläggningsområde, heldragen linje" symbol="1" render="true" value="76"/>
-      <category label="Linbana" symbol="2" render="true" value="284"/>
-      <category label="Viadukt" symbol="3" render="false" value="329"/>
-      <category label="Dammbyggnad, större, kantlinje" symbol="4" render="true" value="337"/>
-      <category label="Renstängsel" symbol="5" render="true" value="391"/>
-      <category label="Ruin, mittlinje" symbol="6" render="true" value="695"/>
-      <category label="Rengärde" symbol="7" render="true" value="9920"/>
-      <category label="" symbol="8" render="true" value=""/>
+      <category label="Anläggningsområde, streckad linje" render="true" value="75" symbol="0"/>
+      <category label="Anläggningsområde, heldragen linje" render="true" value="76" symbol="1"/>
+      <category label="Linbana" render="true" value="284" symbol="2"/>
+      <category label="Viadukt" render="false" value="329" symbol="3"/>
+      <category label="Dammbyggnad, större, kantlinje" render="true" value="337" symbol="4"/>
+      <category label="Renstängsel" render="true" value="391" symbol="5"/>
+      <category label="Ruin, mittlinje" render="true" value="695" symbol="6"/>
+      <category label="Rengärde" render="true" value="9920" symbol="7"/>
+      <category label="" render="true" value="" symbol="8"/>
     </categories>
     <symbols>
-      <symbol force_rhr="0" type="line" clip_to_extent="1" alpha="1" name="0">
+      <symbol type="line" force_rhr="0" name="0" clip_to_extent="1" alpha="1">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -33,7 +33,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer pass="0" locked="0" class="SimpleLine" enabled="1">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <Option type="Map">
             <Option type="QString" name="align_dash_pattern" value="0"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -99,7 +99,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" clip_to_extent="1" alpha="1" name="1">
+      <symbol type="line" force_rhr="0" name="1" clip_to_extent="1" alpha="1">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -107,7 +107,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer pass="0" locked="0" class="SimpleLine" enabled="1">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <Option type="Map">
             <Option type="QString" name="align_dash_pattern" value="0"/>
             <Option type="QString" name="capstyle" value="round"/>
@@ -173,7 +173,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" clip_to_extent="1" alpha="1" name="2">
+      <symbol type="line" force_rhr="0" name="2" clip_to_extent="1" alpha="1">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -181,7 +181,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer pass="0" locked="0" class="SimpleLine" enabled="1">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <Option type="Map">
             <Option type="QString" name="align_dash_pattern" value="0"/>
             <Option type="QString" name="capstyle" value="round"/>
@@ -246,7 +246,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer pass="0" locked="0" class="MarkerLine" enabled="1">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <Option type="Map">
             <Option type="QString" name="average_angle_length" value="4"/>
             <Option type="QString" name="average_angle_map_unit_scale" value="3x:0,0,0,0,0,0"/>
@@ -286,7 +286,7 @@
               <Option type="QString" name="type" value="collection"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" type="marker" clip_to_extent="1" alpha="1" name="@2@1">
+          <symbol type="marker" force_rhr="0" name="@2@1" clip_to_extent="1" alpha="1">
             <data_defined_properties>
               <Option type="Map">
                 <Option type="QString" name="name" value=""/>
@@ -294,7 +294,7 @@
                 <Option type="QString" name="type" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer pass="0" locked="0" class="SimpleMarker" enabled="1">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <Option type="Map">
                 <Option type="QString" name="angle" value="0"/>
                 <Option type="QString" name="cap_style" value="flat"/>
@@ -346,7 +346,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" clip_to_extent="1" alpha="1" name="3">
+      <symbol type="line" force_rhr="0" name="3" clip_to_extent="1" alpha="1">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -354,7 +354,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer pass="0" locked="0" class="SimpleLine" enabled="1">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <Option type="Map">
             <Option type="QString" name="align_dash_pattern" value="0"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -420,7 +420,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" clip_to_extent="1" alpha="1" name="4">
+      <symbol type="line" force_rhr="0" name="4" clip_to_extent="1" alpha="1">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -428,7 +428,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer pass="0" locked="0" class="SimpleLine" enabled="1">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <Option type="Map">
             <Option type="QString" name="align_dash_pattern" value="0"/>
             <Option type="QString" name="capstyle" value="round"/>
@@ -494,7 +494,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" clip_to_extent="1" alpha="1" name="5">
+      <symbol type="line" force_rhr="0" name="5" clip_to_extent="1" alpha="1">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -502,7 +502,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer pass="0" locked="0" class="SimpleLine" enabled="1">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <Option type="Map">
             <Option type="QString" name="align_dash_pattern" value="0"/>
             <Option type="QString" name="capstyle" value="round"/>
@@ -567,7 +567,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer pass="0" locked="0" class="MarkerLine" enabled="1">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <Option type="Map">
             <Option type="QString" name="average_angle_length" value="4"/>
             <Option type="QString" name="average_angle_map_unit_scale" value="3x:0,0,0,0,0,0"/>
@@ -607,7 +607,7 @@
               <Option type="QString" name="type" value="collection"/>
             </Option>
           </data_defined_properties>
-          <symbol force_rhr="0" type="marker" clip_to_extent="1" alpha="1" name="@5@1">
+          <symbol type="marker" force_rhr="0" name="@5@1" clip_to_extent="1" alpha="1">
             <data_defined_properties>
               <Option type="Map">
                 <Option type="QString" name="name" value=""/>
@@ -615,13 +615,13 @@
                 <Option type="QString" name="type" value="collection"/>
               </Option>
             </data_defined_properties>
-            <layer pass="0" locked="0" class="SvgMarker" enabled="1">
+            <layer pass="0" locked="0" enabled="1" class="SvgMarker">
               <Option type="Map">
                 <Option type="QString" name="angle" value="0"/>
                 <Option type="QString" name="color" value="72,72,72,255"/>
                 <Option type="QString" name="fixedAspectRatio" value="0"/>
                 <Option type="QString" name="horizontal_anchor_point" value="1"/>
-                <Option type="QString" name="name" value="C:/Users/Begränsat konto/Documents/Kartor/stilar/LM-terräng/renstangsel.svg"/>
+                <Option type="QString" name="name" value="base64:PHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMCAxMCIgd2lkdGg9IjEwIiBoZWlnaHQ9IjEwIiB2aWV3Qm94PSIwIDAgMTAgMTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQo8cGF0aCBkPSJNIDguNDQsMCBMIDkuMzYsMC4zNyA1LjY2LDEwIDQuNzMsOS42NCBaDQpNIDQuMzUsMCBMIDUuMjgsMC4zNyAxLjU5LDEwIDAuNjUsOS42NCBaIg0KZmlsbD0icGFyYW0oZmlsbCkiIGZpbGwtb3BhY2l0eT0icGFyYW0oZmlsbC1vcGFjaXR5KSINCnN0cm9rZT0icGFyYW0ob3V0bGluZSkiIHN0cm9rZS1vcGFjaXR5PSJwYXJhbShvdXRsaW5lLW9wYWNpdHkpIiBzdHJva2Utd2lkdGg9InBhcmFtKG91dGxpbmUtd2lkdGgpIi8+DQo8L3N2Zz4NCg=="/>
                 <Option type="QString" name="offset" value="0,0"/>
                 <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
                 <Option type="QString" name="offset_unit" value="MapUnit"/>
@@ -640,7 +640,7 @@
               <prop v="72,72,72,255" k="color"/>
               <prop v="0" k="fixedAspectRatio"/>
               <prop v="1" k="horizontal_anchor_point"/>
-              <prop v="C:/Users/Begränsat konto/Documents/Kartor/stilar/LM-terräng/renstangsel.svg" k="name"/>
+              <prop v="base64:PHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMCAxMCIgd2lkdGg9IjEwIiBoZWlnaHQ9IjEwIiB2aWV3Qm94PSIwIDAgMTAgMTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQo8cGF0aCBkPSJNIDguNDQsMCBMIDkuMzYsMC4zNyA1LjY2LDEwIDQuNzMsOS42NCBaDQpNIDQuMzUsMCBMIDUuMjgsMC4zNyAxLjU5LDEwIDAuNjUsOS42NCBaIg0KZmlsbD0icGFyYW0oZmlsbCkiIGZpbGwtb3BhY2l0eT0icGFyYW0oZmlsbC1vcGFjaXR5KSINCnN0cm9rZT0icGFyYW0ob3V0bGluZSkiIHN0cm9rZS1vcGFjaXR5PSJwYXJhbShvdXRsaW5lLW9wYWNpdHkpIiBzdHJva2Utd2lkdGg9InBhcmFtKG91dGxpbmUtd2lkdGgpIi8+DQo8L3N2Zz4NCg==" k="name"/>
               <prop v="0,0" k="offset"/>
               <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
               <prop v="MapUnit" k="offset_unit"/>
@@ -665,7 +665,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" clip_to_extent="1" alpha="1" name="6">
+      <symbol type="line" force_rhr="0" name="6" clip_to_extent="1" alpha="1">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -673,7 +673,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer pass="0" locked="0" class="SimpleLine" enabled="1">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <Option type="Map">
             <Option type="QString" name="align_dash_pattern" value="0"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -738,7 +738,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer pass="0" locked="0" class="SimpleLine" enabled="1">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <Option type="Map">
             <Option type="QString" name="align_dash_pattern" value="0"/>
             <Option type="QString" name="capstyle" value="flat"/>
@@ -804,7 +804,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" clip_to_extent="1" alpha="1" name="7">
+      <symbol type="line" force_rhr="0" name="7" clip_to_extent="1" alpha="1">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -812,7 +812,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer pass="0" locked="0" class="SimpleLine" enabled="1">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <Option type="Map">
             <Option type="QString" name="align_dash_pattern" value="0"/>
             <Option type="QString" name="capstyle" value="round"/>
@@ -878,7 +878,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol force_rhr="0" type="line" clip_to_extent="1" alpha="1" name="8">
+      <symbol type="line" force_rhr="0" name="8" clip_to_extent="1" alpha="1">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -886,7 +886,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer pass="0" locked="0" class="SimpleLine" enabled="1">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <Option type="Map">
             <Option type="QString" name="align_dash_pattern" value="0"/>
             <Option type="QString" name="capstyle" value="round"/>
@@ -954,7 +954,7 @@
       </symbol>
     </symbols>
     <source-symbol>
-      <symbol force_rhr="0" type="line" clip_to_extent="1" alpha="1" name="0">
+      <symbol type="line" force_rhr="0" name="0" clip_to_extent="1" alpha="1">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -962,7 +962,7 @@
             <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer pass="0" locked="0" class="SimpleLine" enabled="1">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <Option type="Map">
             <Option type="QString" name="align_dash_pattern" value="0"/>
             <Option type="QString" name="capstyle" value="square"/>
@@ -1045,12 +1045,12 @@
   <blendMode>0</blendMode>
   <featureBlendMode>0</featureBlendMode>
   <layerOpacity>1</layerOpacity>
-  <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-    <DiagramCategory scaleBasedVisibility="0" sizeType="MM" penColor="#000000" height="15" width="15" labelPlacementMethod="XHeight" direction="1" maxScaleDenominator="1e+08" backgroundAlpha="255" barWidth="5" enabled="0" opacity="1" rotationOffset="270" spacingUnit="MM" spacing="0" lineSizeScale="3x:0,0,0,0,0,0" backgroundColor="#ffffff" penAlpha="255" minScaleDenominator="0" diagramOrientation="Up" spacingUnitScale="3x:0,0,0,0,0,0" showAxis="0" sizeScale="3x:0,0,0,0,0,0" minimumSize="0" penWidth="0" lineSizeType="MM" scaleDependency="Area">
+  <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+    <DiagramCategory enabled="0" lineSizeType="MM" showAxis="0" spacingUnit="MM" penColor="#000000" sizeType="MM" penAlpha="255" height="15" penWidth="0" minimumSize="0" spacingUnitScale="3x:0,0,0,0,0,0" maxScaleDenominator="1e+08" labelPlacementMethod="XHeight" minScaleDenominator="0" spacing="0" barWidth="5" backgroundAlpha="255" opacity="1" rotationOffset="270" direction="1" sizeScale="3x:0,0,0,0,0,0" lineSizeScale="3x:0,0,0,0,0,0" scaleBasedVisibility="0" diagramOrientation="Up" backgroundColor="#ffffff" width="15" scaleDependency="Area">
       <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
-      <attribute label="" field="" color="#000000"/>
+      <attribute field="" label="" color="#000000"/>
       <axisSymbol>
-        <symbol force_rhr="0" type="line" clip_to_extent="1" alpha="1" name="">
+        <symbol type="line" force_rhr="0" name="" clip_to_extent="1" alpha="1">
           <data_defined_properties>
             <Option type="Map">
               <Option type="QString" name="name" value=""/>
@@ -1058,7 +1058,7 @@
               <Option type="QString" name="type" value="collection"/>
             </Option>
           </data_defined_properties>
-          <layer pass="0" locked="0" class="SimpleLine" enabled="1">
+          <layer pass="0" locked="0" enabled="1" class="SimpleLine">
             <Option type="Map">
               <Option type="QString" name="align_dash_pattern" value="0"/>
               <Option type="QString" name="capstyle" value="square"/>
@@ -1127,7 +1127,7 @@
       </axisSymbol>
     </DiagramCategory>
   </SingleCategoryDiagramRenderer>
-  <DiagramLayerSettings zIndex="0" priority="0" dist="0" placement="2" linePlacementFlags="18" obstacle="0" showAll="1">
+  <DiagramLayerSettings obstacle="0" priority="0" linePlacementFlags="18" placement="2" dist="0" showAll="1" zIndex="0">
     <properties>
       <Option type="Map">
         <Option type="QString" name="name" value=""/>
@@ -1143,34 +1143,34 @@
   <legend type="default-vector" showLabelLegend="0"/>
   <referencedLayers/>
   <fieldConfiguration>
-    <field configurationFlags="None" name="KKOD"/>
-    <field configurationFlags="None" name="KATEGORI"/>
+    <field name="KKOD" configurationFlags="None"/>
+    <field name="KATEGORI" configurationFlags="None"/>
   </fieldConfiguration>
   <aliases>
-    <alias field="KKOD" index="0" name=""/>
-    <alias field="KATEGORI" index="1" name=""/>
+    <alias field="KKOD" name="" index="0"/>
+    <alias field="KATEGORI" name="" index="1"/>
   </aliases>
   <defaults>
-    <default field="KKOD" expression="" applyOnUpdate="0"/>
-    <default field="KATEGORI" expression="" applyOnUpdate="0"/>
+    <default expression="" field="KKOD" applyOnUpdate="0"/>
+    <default expression="" field="KATEGORI" applyOnUpdate="0"/>
   </defaults>
   <constraints>
-    <constraint field="KKOD" unique_strength="0" notnull_strength="0" constraints="0" exp_strength="0"/>
-    <constraint field="KATEGORI" unique_strength="0" notnull_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="KKOD" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+    <constraint field="KATEGORI" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
   </constraints>
   <constraintExpressions>
-    <constraint field="KKOD" desc="" exp=""/>
-    <constraint field="KATEGORI" desc="" exp=""/>
+    <constraint field="KKOD" exp="" desc=""/>
+    <constraint field="KATEGORI" exp="" desc=""/>
   </constraintExpressions>
   <expressionfields/>
   <attributeactions>
-    <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+    <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
   </attributeactions>
   <attributetableconfig sortExpression="&quot;KKOD&quot;" sortOrder="0" actionWidgetStyle="dropDown">
     <columns>
-      <column type="field" name="KKOD" width="-1" hidden="0"/>
-      <column type="field" name="KATEGORI" width="283" hidden="0"/>
-      <column type="actions" width="-1" hidden="1"/>
+      <column hidden="0" type="field" name="KKOD" width="-1"/>
+      <column hidden="0" type="field" name="KATEGORI" width="283"/>
+      <column hidden="1" type="actions" width="-1"/>
     </columns>
   </attributetableconfig>
   <conditionalstyles>
